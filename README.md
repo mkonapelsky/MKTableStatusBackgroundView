@@ -13,6 +13,12 @@ Drop-in:
 Simply add MKTableStatusBackgroundView to your project
 ```
 
+Cocoapods:
+
+```sh
+No pods until the project evolves
+```
+
 ## Usage example
 
 _Since this project is starting so small and there is no pod, there is also nothing to import. Just follow along with the example project._
@@ -30,8 +36,7 @@ To use MKTableStatusBackgroundView there are a few steps:
 
 ## Release History
 
-* 0.2.1
-* Initial release
+* 1.0 - Initial release
 
 ## Meta
 
