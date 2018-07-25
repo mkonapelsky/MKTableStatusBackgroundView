@@ -31,7 +31,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         if _data.count == 0 {
             
-            tableView?.delegate = nil
             tableView?.dataSource = nil
             
             tableView?.backgroundView = MKTableStatusBackgroundView(withMessage: "No data is available.",
@@ -39,7 +38,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                                                                     delegate: self)
         }
         else {
-            tableView?.delegate = self
             tableView?.dataSource = self
             
             tableView?.backgroundView = nil
